@@ -9,7 +9,7 @@
       "methods": ["GET"]
     },
     {
-      "src": "/user",
+      "src": "/users",
       "dest": "/index.js",
       "methods": ["GET"]
     }

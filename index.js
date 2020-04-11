@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to a basic express App");
 });
 
-// Mock APIs
+// Users route
 app.get("/users", (req, res) => {
   res.json([
     { name: "William", location: "Abu Dhabi" },
